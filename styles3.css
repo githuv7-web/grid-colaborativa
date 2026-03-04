@@ -1,0 +1,22 @@
+body{
+  background-color: aqua;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+.contenedor{
+  display: grid;
+  grid-template-columns: repeat(2,150px );
+  grid-template-rows: repeat(2,150px);
+  gap: 20px;
+  padding: 20px;
+}
+
+.item{
+  background-color: black;
+  border: 3px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
