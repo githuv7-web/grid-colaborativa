@@ -1,0 +1,11 @@
+.contenedor{
+    display:grid;
+    grid-template-columns: 34% 33% 33%;
+    grid-template-rows: 60px 60px;
+background-color: blue;
+}
+
+.contenedor > div{
+    border: 2px solid white;
+    padding: 20px;
+}
